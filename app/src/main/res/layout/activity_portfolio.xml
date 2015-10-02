@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PortfolioActivity"
+    android:background="#dfeaf1">
+
+    <TextView android:text="@string/title" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:textColor="#202020"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="18dp">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_1_btn_txt"
+            android:tag="@string/app_1_btn_tag"
+            android:id="@+id/app1_btn"
+            android:layout_gravity="center_horizontal"
+            android:background="#ef8c35"
+            android:textSize="18dp"
+            android:textColor="#242424"
+            android:onClick="showToast"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_2_btn_txt"
+            android:tag="@string/app_2_btn_tag"
+            android:id="@+id/app2_btn"
+            android:background="#ef8c35"
+            android:textSize="18dp"
+            android:textColor="#242424"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_3_btn_txt"
+            android:tag="@string/app_3_btn_tag"
+            android:id="@+id/app3_btn"
+            android:background="#ef8c35"
+            android:textSize="18dp"
+            android:textColor="#242424"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_4_btn_txt"
+            android:tag="@string/app_4_btn_tag"
+            android:id="@+id/app4_btn"
+            android:background="#ef8c35"
+            android:textSize="18dp"
+            android:textColor="#242424"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_5_btn_txt"
+            android:tag="@string/app_5_btn_tag"
+            android:id="@+id/app5_btn"
+            android:background="#ef8c35"
+            android:textSize="18dp"
+            android:textColor="#242424"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/app_6_btn_txt"
+            android:tag="@string/app_6_btn_tag"
+            android:id="@+id/app6_btn"
+            android:background="#CD0E3E"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:onClick="showToast" />
+    </LinearLayout>
+
+</RelativeLayout>
